@@ -29,4 +29,5 @@ const ContactList = () => {
     </ol>
   );
 };
+
 export default ContactList;

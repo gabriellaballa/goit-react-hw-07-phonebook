@@ -1,10 +1,8 @@
-// ContactListItem.jsx
 import React from 'react';
 import css from './ContactListItem.module.css';
 
 const ContactListItem = ({ contact, onDeleteContact }) => {
   const handleDelete = () => {
-    //console.log(contact.id);
     onDeleteContact(contact.id);
   };
 
